@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   # s.dependency 'Firebase/Analytics'
   s.ios.deployment_target = '9.0'
   s.library = 'stdc++'
-  s.source_files = 'MagicIOSSDK/*{h,m,mm}'
+  s.source_files = 'Magic/*{h,m,mm}'
   s.requires_arc = true
 
   s.subspec 'API' do |core|
-     core.source_files = "MagicIOSSDK/API/*{h,m}"
+     core.source_files = "Magic/API/*{h,m}"
   end
 end
