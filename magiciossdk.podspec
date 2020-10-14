@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/panshengneng/MagicIOSSDK.git" }
 
   s.frameworks = 'Foundation'
-  s.dependency 'Firebase/Analytics'
+  # s.dependency 'Firebase/Analytics'
   s.ios.deployment_target = '9.0'
   s.library = 'stdc++'
   s.source_files = 'MagicIOSSDK/*{h,m,mm}'
