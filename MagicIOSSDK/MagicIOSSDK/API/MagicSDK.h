@@ -8,5 +8,9 @@
 #import <Foundation/Foundation.h>
 
 @interface MagicSDK : NSObject
-
+/**
+ 获取版本号
+ @return 版本号
+ */
++ (NSString *)Version;
 @end
